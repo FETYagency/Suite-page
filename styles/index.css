@@ -4,12 +4,12 @@
 
 @font-face{
     font-family: 'Epilogue', sans-serif;
-    src: url(../fonts/Epilogue-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/Epilogue-VariableFont_wght.ttf) format('trueType');
     font-weight: normal;
 }
 @font-face{
     font-family: 'Epilogue', sans-serif;
-    src: url(../fonts/static/Epilogue-Bold.ttf) format('truetype');
+    src: url(../fonts/static/Epilogue-Bold.ttf) format('trueType');
     font-weight: bold;
 }
 
