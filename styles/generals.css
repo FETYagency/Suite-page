@@ -1,0 +1,113 @@
+body{
+    overflow-inline: hidden;
+    background: rgb(250,248,246);
+    background: linear-gradient(180deg, rgba(250,248,246,1) 70%, rgba(243,237,231,1) 70%); 
+    min-height: 100vh;
+}   
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Epilogue', sans-serif;
+}
+p, blockquote, address{
+    font-family: 'Epilogue', sans-serif;
+    color: var(--CLR-lS-darkBlue);
+    font-size: var(--FS-B);
+    line-height: var(--LH-B);
+}
+address{
+    color: white;
+}
+
+.content__header{
+    font-size: var(--FS-HL);
+    line-height: var(--LH-HL);
+    color: var(--CLR-HS-darkBlue);
+
+}
+.content__header>span{
+    font-size: inherit;
+    font-weight: bold;
+}
+.box__header{
+    font-size: clamp(var(--FS-HM), 9VW,var(--FS-HL));
+}
+.box__header>span{
+    font-weight: bold;
+}
+
+.btn{
+    border: solid var(--CLR-HS-darkBlue) 1px;
+    background-color: transparent;
+    color: var(--CLR-HS-darkBlue);
+    padding-inline: 1.5rem;
+    padding-block: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all .2s ease;
+}
+.content__btn{
+    border: solid var(--CLR-HS-darkBlue) 1px;
+    background-color: var(--CLR-HS-darkBlue);
+    color: var(--CLR-HS-white);
+    padding-inline: 1.5rem;
+    padding-block: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    border: solid var(--CLR-HS-darkBlue) 1px;
+    background-color: var(--CLR-HS-darkBlue);
+    color: var(--CLR-HS-white);
+    padding-inline: 1.5rem;
+    padding-block: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.content__btn:hover{
+    background-image: linear-gradient(140deg, var(--CLR-HS-purpel), var(--CLR-HS-pink), var(--CLR-HS-gold));
+
+}
+
+
+
+a{
+    color: var(--CLR-HS-darkBlue);
+    transition: all .2s ease;
+}
+a:hover{
+    color: var(--CLR-lS-darkBlue);
+}
+
+/* main sizes */
+
+
+main{
+    margin: auto;
+    width: min(450px, 90%);
+}
+@media(min-width:700px){
+    main{
+        width: 100vw;
+        max-width: 790px;
+    }
+
+
+}
+
+@media(min-width:1000px){
+
+    main{
+        width: 90vw;
+        max-width: 1000px;
+    }
+}

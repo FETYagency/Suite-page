@@ -1,0 +1,40 @@
+:root{
+
+    --CLR-HS-darkBlue: #172339;
+    --CLR-lS-darkBlue: #49566D;
+    --CLR-HS-wheat: #F3EDE7;
+    --CLR-HS-white: #FAF8F6;
+    --CLR-HS-purpel: #A060FF;
+    --CLR-HS-pink: #CB30E3;
+    --CLR-HS-gold: #FFA84E;
+
+
+    --FS-HXL: 4.8rem;
+    --LH-HXL: 5.2rem;
+    --SPACING-HXL: -1PX;
+
+    --FS-HL: 3.2rem;
+    --LH-HL: 3.73rem;
+    --SPACING-HL: -0.5PX;
+
+
+    --FS-HM: 1.2rem;
+    --LH-HM: 2.13rem;
+    --SPACING-HM: -0.2PX;
+
+    --FS-HS: 1.06rem;
+    --LH-HS: 1.73rem;
+    --SPACING-HS: -2.5PX;
+
+    --FS-QUOTE: 1.3rem;
+    --LH-QUOTE: 2.33rem;
+
+    --FS-B: 1.2rem;
+    --LH-B: 2.13rem;
+
+    --FS-FOOTER: 1rem;
+    --LH-FOOTER: 2.13rem;
+
+    font-size: 15px;
+}
+
